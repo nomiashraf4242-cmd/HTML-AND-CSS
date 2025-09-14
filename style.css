@@ -1,0 +1,236 @@
+* {
+margin: 0;
+padding: 0;
+font-family: "Gilroy";
+box-sizing: border-box;
+}
+
+html, body {
+width: 100%;
+height:  100%;
+}
+
+#main {
+display: flex;
+user-select: none;
+width: 100%;
+height: 100%;
+}
+
+#lift {
+width: 80%;
+height: 100%;
+
+
+}
+#ltop {
+width: 100%;
+height: 70%;
+background-image: url(https://c8.alamy.com/comp/2G055YA/a-seedling-that-sprouted-from-the-soil-and-grew-on-a-separate-green-leaf-on-a-white-background-2G055YA.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+#i i {
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: -4%;
+right: -1.9%;
+transform: translate(-50%, -50%);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+color: aliceblue;
+background-color: #00000033;
+font-size: 20px;
+}
+#i i:hover {
+background-color:#000000a2 ;
+color: rgba(240, 248, 255, 0.715) ;
+
+}
+#lbottom {
+padding:40px 100px ;
+width: 100%;
+height: 30%;
+background-color: black;
+}
+#lbcontant {
+display: flex;
+justify-content: space-between;    
+width: 100%;
+}
+
+#contlift {
+color: aliceblue;    
+width: 45%;
+height: 100%;
+}
+#contlift p  {
+opacity: .8;    
+width: 70%;
+font-size: 12px;
+margin-top:20px ;
+}
+
+#contright {
+width: 45%;
+height: 100%;
+color: aliceblue;
+}
+.row {
+padding-right:80px;    
+margin-top:20px ;
+display: flex;
+justify-content: space-between;
+}
+
+.relem {
+display: flex;
+
+}
+.relemtext {
+margin-left: 10px;
+
+}
+.relemtext h6 {
+opacity: .5;
+font-weight: 500;
+
+}
+
+
+
+#right {
+ 
+width: 20%;
+height: 100%;
+   
+}
+#rtop {
+background-color:rgba(249, 247, 247, 1.973) ;   
+position: relative;
+width: 100%;
+height: 70%;
+flex-direction: column;
+display: flex;
+padding: 50px 40px;
+}
+#rtop a {
+text-decoration: none;
+color: #000;
+font-weight: 500;
+font-size: 10px;
+letter-spacing: 3px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rtop #two {
+margin-left: 20px;
+position: relative;
+}
+#icon {
+display: flex;    
+position: absolute;
+top: 0%;
+right: 0%;
+flex-direction: column;
+padding: 47px 30px;
+gap: 10px;
+}
+#icon i {
+font-size: 20px;
+   
+}
+#bottomflower {
+width: 100px;
+height: 120px;
+position: absolute;
+left: 0;
+bottom: 0;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeZOHOh8Yq9cB3Fk-2bNrriocUynOgsKN5JA&s);
+background-position: center;
+background-size: cover;
+}
+
+#bottomflower i {
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 50%;
+left: 21%;
+transform: translate(-50%, -50%);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+color: aliceblue;
+background-color: #00000033;
+font-size: 20px;
+}
+
+#bottomflower i:hover{
+background-color: #000000a2;
+color: rgba(240, 248, 255, 0.715);
+
+
+}
+#rtop #two::before {
+content: "";
+position: absolute;
+left: -20px;
+top: 5px;
+height: 2px;
+width: 10px;
+background-color: black;
+}
+
+ 
+#rbottom {
+position: relative;    
+background-image: url(https://images.unsplash.com/photo-1587334274328-64186a80aeee?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGVhZnxlbnwwfHwwfHx8MA%3D%3D); 
+width: 100%;
+height: 30%;
+background-position: top;
+background-size: cover;
+color: aliceblue;
+}
+
+#capcual {
+position: absolute;
+bottom: 5%;
+left: 50%;
+transform: translate(-50%, 0);
+width: 90%;
+padding: 10px 20px;
+background-color: rgba(6, 6, 6, 0.886);
+border-radius: 20px;
+
+}
+
+#capcual {
+font-size: 10px;
+font-size: 8px;
+width: 90%;
+font-weight: 500;
+opacity: .5;
+
+}
+#capcual p {
+margin-top: 3px;    
+font-size: 8px;
+width: 90%;
+font-weight: 500;
+opacity:.9;
+}
+#capcual:hover {
+background-color: #f9f5f5f1;
+color: rgba(3, 3, 3, 0.973);
+
+
+}
